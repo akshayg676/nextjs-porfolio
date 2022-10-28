@@ -1,0 +1,90 @@
+/* -------------------------------------- Header -------------------------------------- */
+.header {
+  margin: 80px;
+  z-index: 2 !important;
+}
+.header .headerContainer h1 {
+  font-family: "Bigilla";
+  font-size: 12rem;
+}
+@media (max-width: 1088px) {
+  .header .headerContainer h1 {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 915px) {
+  .header .headerContainer h1 {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 749px) {
+  .header .headerContainer h1 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 583px) {
+  .header {
+    margin: 40px;
+  }
+  .header .headerContainer h1 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 543px) {
+  .header .headerContainer h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 454px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 387px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 {
+    font-size: 3.8rem;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    margin: 20px;
+  }
+  .header .headerContainer h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* -------------------------------------- hero-image -------------------------------------- */
+.heroImage {
+  width: 100%;
+  margin-top: -300px;
+}
+.heroImage::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.heroImage .heroImageContainer {
+  width: 40%;
+  float: right;
+}
+.heroImage .heroImageContainer img {
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .heroImage {
+    margin-top: 40px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .heroImage .heroImageContainer {
+    width: 100%;
+  }
+}
