@@ -1,6 +1,5 @@
-import { Layout } from "../components";
+import { CustomCursor, Layout } from "../components";
 import "../styles/globals.css";
-import CustomCursor from "../components/CustomCursor";
 
 function MyApp({ Component, pageProps }) {
   return (
