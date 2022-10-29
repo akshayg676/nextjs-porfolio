@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       {/*-------------------------------------- divider --------------------------------------*/}
-      <div class="divider"></div>
+      <div className="divider"></div>
     </div>
   );
 };

@@ -1,0 +1,92 @@
+.projectConatiner {
+  padding: 1em 0.5em;
+  line-height: 35px;
+}
+.projectHeading {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.projectHeading span {
+  font-family: "Bigilla";
+  border-bottom: 5px solid #fff;
+  font-size: 4em;
+}
+
+/* .projectDesc {
+} */
+.projectGif {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-width: 300px;
+  object-fit: cover;
+}
+
+/* .projectTools ul {
+  margin-left: 1em;
+} */
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em 0 4em 0;
+}
+
+.projectButton {
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  font-weight: 700;
+  font-size: 1.2em;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+.projectButton:hover {
+  color: #fff;
+  background-color: #0a0a0a;
+  border-radius: 1px solid #fff;
+  /* transition: ease-in-out; */
+  transform: translateY(-0.25em);
+}
+
+.projectSpan {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #fff;
+}
+
+.projectPad {
+  padding: 1em 0;
+  list-style: none;
+  font-size: 1.2em;
+}
+.projectPad li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+@media screen and (max-width: 383px) {
+  .projectHeading span {
+    font-size: 3.5em;
+  }
+  .projectSpan {
+    font-size: 1.2em;
+  }
+  .projectPad {
+    font-size: 1em;
+  }
+  .projectButton {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 330px) {
+  .projectHeading span {
+    font-size: 3.2em;
+  }
+}
