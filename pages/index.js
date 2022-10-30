@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
-import { About, HeroSection, Navbar, ProjectList } from "../components";
+import { About, HeroSection, Navbar, ProjectList, Skills } from "../components";
 import projectData from "../public/data/projects.json";
 export default function Home({ data }) {
   return (
@@ -8,7 +8,8 @@ export default function Home({ data }) {
         <Navbar />
         <HeroSection />
         <About />
-        <ProjectList data={data} />
+        {/* <ProjectList data={data} /> */}
+        <Skills />
       </div>
     </div>
   );
