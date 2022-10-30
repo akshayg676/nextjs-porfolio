@@ -8,7 +8,7 @@ export default function Home({ data }) {
         <Navbar />
         <HeroSection />
         <About />
-        {/* <ProjectList data={data} /> */}
+        <ProjectList data={data} />
         <Skills />
       </div>
     </div>

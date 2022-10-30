@@ -23,6 +23,10 @@ const ProjectList = ({ data }) => {
                 <span>{val.title}</span>
                 <span>{val.title}</span>
                 <span>{val.title}</span>
+                <span>{val.title}</span>
+                <span>{val.title}</span>
+                <span>{val.title}</span>
+                <span>{val.title}</span>
               </div>
             </div>
           </div>

@@ -65,6 +65,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
   overflow: hidden;
   color: #fff;
   pointer-events: none;
@@ -80,7 +81,7 @@
   display: flex;
   position: relative;
   -webkit-animation: marquee 5s linear infinite;
-  animation: marquee 5s linear infinite;
+  animation: marquee 20s linear infinite;
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
   opacity: 0;
