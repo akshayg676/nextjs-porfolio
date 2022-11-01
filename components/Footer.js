@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css";
 const Footer = () => {
   return (
     <div>
-      <div class="divider"></div>
+      <div className="divider"></div>
       <div className={styles.footer}>
         <div className={styles.navbar}>
           <div className={styles.navbarContainer}>

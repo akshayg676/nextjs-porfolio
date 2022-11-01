@@ -1,14 +1,16 @@
+import Link from "next/link";
 import React from "react";
 import styles from "../styles/Navbar.module.css";
+
 const Navbar = () => {
   return (
     <div>
       <div className={styles.navbar}>
         <div className={styles.navbarContainer}>
           <div className={styles.siteLogo}>
-            <a href="#">
+            <Link href={"/"}>
               <img className={styles.logo} src="/images/logo.png" alt="" />
-            </a>
+            </Link>
           </div>
           <nav>
             <li>
