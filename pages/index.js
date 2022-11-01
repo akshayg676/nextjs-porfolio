@@ -3,17 +3,16 @@ import {
   About,
   Contact,
   HeroSection,
-  Navbar,
   ProjectList,
   Skills,
   Social,
 } from "../components";
 import projectData from "../public/data/projects.json";
+
 export default function Home({ data }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <Navbar />
         <HeroSection />
         <About />
         <ProjectList data={data} />

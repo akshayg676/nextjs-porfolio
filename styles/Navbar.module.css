@@ -17,6 +17,9 @@
   margin: 0 15px;
   font-size: 20px;
 }
+.footer {
+  padding: 2em 0;
+}
 @media screen and (max-width: 345px) {
   .navbarContainer nav li {
     font-size: 18.5px;
@@ -29,8 +32,8 @@
   .navbarContainer nav li {
     padding: 10px 0;
   }
-  .navbarContainer .site-logo,
-  .site-copyright {
+  .navbarContainer .siteLogo,
+  .siteCopyright {
     margin-bottom: 15px;
   }
 }
