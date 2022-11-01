@@ -59,3 +59,14 @@
     width: 100%;
   }
 }
+@media (max-width: 475px) {
+  .social .social-container a {
+    padding: 0.25rem;
+  }
+}
+@media (max-width: 381px) {
+  .contactBtn {
+    padding: 0.25rem;
+    font-size: 20px;
+  }
+}

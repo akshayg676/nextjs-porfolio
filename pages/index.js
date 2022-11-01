@@ -6,6 +6,7 @@ import {
   Navbar,
   ProjectList,
   Skills,
+  Social,
 } from "../components";
 import projectData from "../public/data/projects.json";
 export default function Home({ data }) {
@@ -18,6 +19,7 @@ export default function Home({ data }) {
         <ProjectList data={data} />
         <Skills />
         <Contact />
+        <Social />
       </div>
     </div>
   );

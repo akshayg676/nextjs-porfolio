@@ -22,3 +22,15 @@
     font-size: 18.5px;
   }
 }
+@media (max-width: 600px) {
+  .navbarContainer {
+    flex-direction: column;
+  }
+  .navbarContainer nav li {
+    padding: 10px 0;
+  }
+  .navbarContainer .site-logo,
+  .site-copyright {
+    margin-bottom: 15px;
+  }
+}

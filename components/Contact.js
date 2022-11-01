@@ -62,7 +62,7 @@ const Contact = () => {
           />
           <input
             type="submit"
-            defaultValue="send message"
+            value="send message"
             className={styles.contactBtn}
           />
         </form>
