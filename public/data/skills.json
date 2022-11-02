@@ -92,36 +92,26 @@
       },
       {
         "id": "3",
-        "label": "VS code",
-        "imgPath": "/icons/visual-studio-code.svg"
-      },
-      {
-        "id": "4",
         "label": "Git",
         "imgPath": "/icons/git.svg"
       },
       {
-        "id": "5",
+        "id": "4",
         "label": "GitHub",
         "imgPath": "/icons/github.svg"
       },
       {
-        "id": "6",
+        "id": "5",
         "label": "Chrome Developer Tools",
         "imgPath": "/icons/chrome.svg"
       },
       {
-        "id": "7",
-        "label": "NPM",
-        "imgPath": "/icons/npm.svg"
-      },
-      {
-        "id": "8",
+        "id": "6",
         "label": "Vercel",
         "imgPath": "/icons/vercel.svg"
       },
       {
-        "id": "9",
+        "id": "7",
         "label": "Netlify",
         "imgPath": "/icons/netlify-icon.svg"
       }
