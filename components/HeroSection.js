@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className={styles.headerContainer}>
           <h1>
             Akshay G<br />
-            Full Stack
+            Front End
             <br />
             &nbsp;Developer
           </h1>
