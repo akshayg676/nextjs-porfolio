@@ -4,9 +4,9 @@ import styles from "../../styles/ProjectDetails.module.css";
 const ProjectDetails = ({ data }) => {
   return (
     <div className={styles.projectConatiner}>
-      <h1 className={styles.projectHeading}>
-        <span>{data.title.toUpperCase()}</span>
-      </h1>
+      <div className={styles.headingContainter}>
+        <h1 className={styles.projectHeading}>{data.title.toUpperCase()}</h1>
+      </div>
       <div className={styles.button}>
         <form action={data.viewUrl} method="get" target="_blank">
           <button className={styles.projectButton} type="submit">
