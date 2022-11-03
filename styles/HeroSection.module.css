@@ -7,6 +7,7 @@
   font-family: "Bigilla";
   font-size: 12rem;
 }
+
 @media (max-width: 1088px) {
   .header .headerContainer h1 {
     font-size: 10rem;
