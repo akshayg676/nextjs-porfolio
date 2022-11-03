@@ -1,8 +1,16 @@
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar, Footer } from "../components";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Layout = ({ children }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 3000,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <div>
       <Head>

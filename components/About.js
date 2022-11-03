@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Section } from "./index";
 import styles from "../styles/About.module.css";
+
 const About = () => {
   return (
     <div>
       <Section tag="about" />
       {/*------------------------------------ about ------------------------------------*/}
-      <section className={styles.about}>
+      <section className={styles.about} data-aos="zoom-in-left">
         <div className={styles.aboutContainer}>
           <p>
             I’m a full-stack developer who loves building user-friendly websites

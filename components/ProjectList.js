@@ -1,13 +1,14 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { Section } from "./index";
 import styles from "../styles/ProjectList.module.css";
+
 const ProjectList = ({ data }) => {
   return (
     <div id="project">
       <Section tag="selected projects" />
       {data.map((val) => (
-        <section key={val.id} className={styles.project}>
+        <section key={val.id} className={styles.project} data-aos="zoom-in">
           <div className={styles.projectContainer}>
             <Link className={styles.project_link} href={`/project/${val.slug}`}>
               / {val.title}

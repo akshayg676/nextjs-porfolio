@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Section } from "./index";
 import skillsList from "../public/data/skills.json";
 import styles from "../styles/Skills.module.css";
@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <Section tag="skills" />
-      <section className={styles.skill}>
+      <section className={styles.skill} data-aos="zoom-in">
         <div className={styles.skillContainer}>
           <div className={styles.set}>
             <header>Front-End</header>
