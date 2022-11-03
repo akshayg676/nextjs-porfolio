@@ -4,7 +4,7 @@ import { Section } from "./index";
 import styles from "../styles/ProjectList.module.css";
 const ProjectList = ({ data }) => {
   return (
-    <div>
+    <div id="project">
       <Section tag="selected projects" />
       {data.map((val) => (
         <section key={val.id} className={styles.project}>

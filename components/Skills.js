@@ -8,7 +8,7 @@ const Skills = () => {
   const beskills = skillsList.find((label) => label.name === "backend");
   const devskills = skillsList.find((label) => label.name === "devtools");
   return (
-    <div>
+    <div id="skills">
       <Section tag="skills" />
       <section className={styles.skill}>
         <div className={styles.skillContainer}>

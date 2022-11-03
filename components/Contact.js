@@ -4,8 +4,8 @@ import styles from "../styles/Contact.module.css";
 
 const Contact = () => {
   return (
-    <div>
-      <section className={styles.contact} id="contact">
+    <div id="contact">
+      <section className={styles.contact}>
         <Section tag="let's chat" />
         <form
           action="https://formsubmit.co/1516ba5ad0078b149254b4b6dc62e8a5"
