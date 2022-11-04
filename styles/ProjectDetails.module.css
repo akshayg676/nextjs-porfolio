@@ -13,7 +13,7 @@
   margin: 0 auto;
   width: fit-content;
   font-family: "Bigilla";
-  border-bottom: 5px solid #fff;
+  border-bottom: 5px solid #ffdb01;
   font-size: clamp(4.7rem, calc(7rem + -1.35vw), 3.3rem);
 }
 
@@ -36,27 +36,27 @@
 
 .projectButton {
   cursor: pointer;
-  padding: 8px;
-  color: black;
-  background-color: #f2f3f4;
+  padding: 10px;
+  color: #0a0a0a;
+  background-color: #ffdb01;
   font-weight: 700;
   font-size: 1em;
   border-radius: 10px;
+  border: 2px solid #ffdb01;
   transition: 0.3s;
 }
 
 .projectButton:hover {
-  color: #f2f3f4;
-  background-color: #0a0a0a;
-  border-radius: 1px solid #f2f3f4;
-  /* transition: ease-in-out; */
+  color: #ffdb01;
+  background-color: #000;
+
   transform: translateY(-0.25em);
 }
 
 .projectSpan {
   font-size: 1.3em;
   padding-bottom: 5px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffdb01;
 }
 
 .projectPad {
@@ -77,5 +77,6 @@
   }
   .projectButton {
     font-size: 1em;
+    padding: 8px;
   }
 }
