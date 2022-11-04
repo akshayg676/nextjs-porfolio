@@ -7,10 +7,39 @@ const HeroSection = () => {
       <div className={styles.header}>
         <div className={styles.headerContainer}>
           <h1>
-            Akshay G<br />
-            Front End
+            <span>A</span>
+            <span>k</span>
+            <span>s</span>
+            <span>h</span>
+            <span>a</span>
+            <span>y</span>
+            &emsp;
+            <span>G</span>
             <br />
-            &nbsp;Developer
+            <span>F</span>
+            <span>r</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            &emsp;
+            <span>E</span>
+            <span>n</span>
+            <span>d</span>
+            <br />
+            {/* <span>&ensp;</span> */}
+            <span style={{ marginLeft: "5%" }}>D</span>
+            <span>e</span>
+            <span>v</span>
+            <span>e</span>
+            <span>l</span>
+            <span>o</span>
+            <span>p</span>
+            <span>e</span>
+            <span>r</span>
+            {/* Akshay G<br /> */}
+            {/* Front End
+            <br />
+            &nbsp;Developer */}
           </h1>
         </div>
       </div>

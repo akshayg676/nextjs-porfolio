@@ -1,25 +1,42 @@
 /* -------------------------------------- Header -------------------------------------- */
 .header {
   margin: 80px;
+  position: relative;
   z-index: 2 !important;
 }
-.header .headerContainer h1 {
+.header .headerContainer h1 span {
   font-family: "Bigilla";
   font-size: 12rem;
+  display: inline-block;
+}
+@keyframes rubberbandAnimate {
+  25% {
+    transform: scale(0.8, 1.3);
+  }
+  50% {
+    transform: scale(1.1, 0.8);
+  }
+  75% {
+    transform: scale(0.7, 1.2);
+  }
+}
+.header .headerContainer h1 span:hover {
+  color: #ffdb01;
+  animation: rubberbandAnimate 0.6s;
 }
 
 @media (max-width: 1088px) {
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 10rem;
   }
 }
 @media (max-width: 915px) {
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 8rem;
   }
 }
 @media (max-width: 749px) {
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 6rem;
   }
 }
@@ -27,12 +44,12 @@
   .header {
     margin: 40px;
   }
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 6rem;
   }
 }
 @media (max-width: 543px) {
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 5rem;
   }
 }
@@ -40,7 +57,7 @@
   .header {
     margin: 20px;
   }
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 4.4rem;
   }
 }
@@ -49,7 +66,7 @@
   .header {
     margin: 20px;
   }
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 3.8rem;
   }
 }
@@ -57,7 +74,7 @@
   .header {
     margin: 20px;
   }
-  .header .headerContainer h1 {
+  .header .headerContainer h1 span {
     font-size: 3.5rem;
   }
 }
@@ -111,5 +128,14 @@
   }
   .heroImage .heroImageContainer {
     width: 100%;
+  }
+}
+@media (max-width: 376px) {
+  .heroImage {
+    display: flex;
+    justify-content: center;
+  }
+  .heroImage .heroImageContainer {
+    width: 220px;
   }
 }
