@@ -76,10 +76,34 @@
   width: 40%;
   float: right;
 }
+@keyframes floating {
+  from {
+    transform: translateY(-0.5em);
+  }
+
+  to {
+    transform: translateY(+0.5em);
+  }
+}
 .heroImage .heroImageContainer img {
   width: 100%;
+  /* transform: translateY(-0.25em);
+  transition: 0.3s; */
+  animation-duration: 1.8s;
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @media (max-width: 900px) {
+  @keyframes floating {
+    from {
+      transform: translateY(-0.25em);
+    }
+
+    to {
+      transform: translateY(+0.25em);
+    }
+  }
   .heroImage {
     margin-top: 40px;
     max-width: 400px;
