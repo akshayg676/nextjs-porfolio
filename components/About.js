@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Section tag="about" />
       {/*------------------------------------ about ------------------------------------*/}
-      <section className={styles.about} data-aos="zoom-in-left">
+      <section className={styles.about} data-aos="fade-up">
         <div className={styles.aboutContainer}>
           <p>
             I’m a full-stack developer who loves building user-friendly websites
