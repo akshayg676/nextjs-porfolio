@@ -30,7 +30,6 @@
 }
 
 .resumeBtn:hover {
-  /* letter-spacing: 0.2rem; */
   color: #0a0a0a;
   background-color: #ffdb01;
   transform: translateY(-0.25em);

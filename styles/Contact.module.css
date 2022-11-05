@@ -42,14 +42,20 @@
   display: inline-block;
   padding: 0.5rem 0.8rem;
   font-size: 1.7rem;
-  color: black;
-  background: #fff;
+  color: #ffdb01;
+  background-color: #000;
+
   border-radius: 0.5rem;
+  border: 2px solid #ffdb01;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .contactBtn:hover {
-  letter-spacing: 0.2rem;
+  color: #0a0a0a;
+  background-color: #ffdb01;
+
+  transform: translateY(-0.25em);
 }
 @media screen and (max-width: 718px) {
   .contact form .inputBox {
