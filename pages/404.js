@@ -20,7 +20,7 @@ const ErrorPage = () => {
         </span>
         &nbsp;
         {"{"}
-        <em>alert</em>(<i>"We're really sorry about that."</i>);&nbsp;
+        <em>alert</em>(<i>{`"We're really sorry about that."`}</i>);&nbsp;
         <span>window</span>.<em>location</em> = home;{"}"}
       </code>
       <center>
