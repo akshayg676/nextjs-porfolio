@@ -17,9 +17,10 @@ const ErrorPage = () => {
       <code className={styles.code}>
         <span>
           else if (<b>we_screwed_up</b>)
-        </span>{" "}
+        </span>
+        &nbsp;
         {"{"}
-        <em>alert</em>(<i>"We're really sorry about that."</i>);{" "}
+        <em>alert</em>(<i>"We're really sorry about that."</i>);&nbsp;
         <span>window</span>.<em>location</em> = home;{"}"}
       </code>
       <center>
