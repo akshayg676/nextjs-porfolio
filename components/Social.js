@@ -12,22 +12,31 @@ const Social = () => {
             <a
               href="https://www.linkedin.com/in/akshay-g-700183181/"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
           </div>
           <div className={styles.socialId}>
-            <a href="https://github.com/akshayg676" target="_blank">
+            <a
+              href="https://github.com/akshayg676"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </div>
           <div className={styles.socialId}>
-            <a href="https://codepen.io/akshay-g" target="_blank">
+            <a
+              href="https://codepen.io/akshay-g"
+              target="_blank"
+              rel="noreferrer"
+            >
               Codepen
             </a>
           </div>
           <div className={styles.socialId}>
-            <a href="https://t.me/ChingChong5" target="_blank">
+            <a href="https://t.me/ChingChong5" target="_blank" rel="noreferrer">
               Telegram
             </a>
           </div>

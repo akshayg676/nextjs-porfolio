@@ -20,7 +20,7 @@ const About = () => {
             keep learning, continue challenging myself, and do interesting
             things that matter.
           </p>
-          <a href="/resume/resume.html" target="_blank">
+          <a href="/resume/resume.html" target="_blank" rel="noreferrer">
             <button className={styles.resumeBtn}>View Resume</button>
           </a>
         </div>
