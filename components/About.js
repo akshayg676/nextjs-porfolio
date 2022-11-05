@@ -10,7 +10,7 @@ const About = () => {
       <section className={styles.about} data-aos="fade-up">
         <div className={styles.aboutContainer}>
           <p>
-            I’m a full-stack developer who loves building user-friendly websites
+            I’m a front-end developer who loves building user-friendly websites
             and web apps, enjoys writing documentation and loves helping people
             learn how to code.
           </p>
