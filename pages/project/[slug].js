@@ -8,16 +8,12 @@ const ProjectDetails = ({ data }) => {
         <h1 className={styles.projectHeading}>{data.title.toUpperCase()}</h1>
       </div>
       <div className={styles.button}>
-        <form action={data.viewUrl} method="get" target="_blank">
-          <button className={styles.projectButton} type="submit">
-            View Project
-          </button>
-        </form>
-        <form action={data.codeUrl} method="get" target="_blank">
-          <button className={styles.projectButton} type="submit">
-            View Code
-          </button>
-        </form>
+        <a className={styles.projectButton} href={data.viewUrl} target="_blank">
+          View Project
+        </a>
+        <a className={styles.projectButton} href={data.codeUrl} target="_blank">
+          View Code
+        </a>
       </div>
       <h3 className={styles.projectDesc}>
         <span className={styles.projectSpan}>Description:</span>
