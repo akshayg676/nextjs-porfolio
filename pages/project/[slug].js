@@ -8,10 +8,20 @@ const ProjectDetails = ({ data }) => {
         <h1 className={styles.projectHeading}>{data.title.toUpperCase()}</h1>
       </div>
       <div className={styles.button}>
-        <a className={styles.projectButton} href={data.viewUrl} target="_blank">
+        <a
+          className={styles.projectButton}
+          href={data.viewUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
           View Project
         </a>
-        <a className={styles.projectButton} href={data.codeUrl} target="_blank">
+        <a
+          className={styles.projectButton}
+          href={data.codeUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
           View Code
         </a>
       </div>
