@@ -69,10 +69,8 @@
   .social .social-container a {
     padding: 0.25rem;
   }
-}
-@media (max-width: 381px) {
   .contactBtn {
-    padding: 0.25rem;
-    font-size: 20px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
   }
 }
