@@ -27,19 +27,17 @@ body {
   src: url("../public/font/Bigilla-Bold.otf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-    scroll-behavior: smooth;
-    cursor: none;
-  }
-  body {
-    color: white;
-    background: #0a0a0a;
-  }
-  html:hover #cursor {
-    display: flex;
-  }
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  cursor: none;
+}
+body {
+  color: white;
+  background: #0a0a0a;
+}
+html:hover #cursor {
+  display: flex;
 }
 
 /* -------------------------------------- Scrollbar -------------------------------------- */
